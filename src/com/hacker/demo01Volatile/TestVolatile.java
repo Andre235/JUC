@@ -25,11 +25,9 @@ public class TestVolatile {
          *      多个线程操作同一个数据，使用同步锁将会造成效率非常低的现象
          */
         while (true){
-            synchronized (threadDemo){
-                if(threadDemo.getFlag()){
-                    System.out.println("-------------------");
-                    break;
-                }
+            if(threadDemo.getFlag()){
+                System.out.println("-------------------");
+                break;
             }
         }
 

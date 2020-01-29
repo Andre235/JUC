@@ -7,7 +7,7 @@ package com.hacker.demo01Volatile;
  */
 public class ThreadDemo implements Runnable {
 
-    private Boolean flag = false;
+    private volatile Boolean flag = false;
 
     @Override
     public void run() {
