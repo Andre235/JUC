@@ -4,6 +4,9 @@ package com.hacker.demo01Volatile;
  * @author : Jeffersonnn
  * @date : 2020/1/29
  * @description : volatile关键字作用：可以保证多个线程在访问共享数据时，彼此的内存可见，不会产生脏数据(线程1 和 主线程直接操作主内存中的数据)
+ * 注意：
+ *      1.synchronized是互斥锁，然而volatile不具备互斥性
+ *      2.volatile 不具备原子性
  */
 public class TestVolatile {
 
@@ -30,7 +33,6 @@ public class TestVolatile {
                 break;
             }
         }
-
     }
 
 }
