@@ -1,4 +1,4 @@
-package com.hacker.demo01Volatile;
+package com.hacker.demo01Volatile.volatile关键字;
 
 /**
  * @author : Jeffersonnn
@@ -23,7 +23,7 @@ public class TestVolatile {
          * 原因：
          *      内存可见性问题导致，两个线程在操作同一个共享数据时，彼此内存中数据不可见，故会产生脏数据
          * 解决办法：
-         *      用同步锁机制可以避免该问题，主线程在每次读写数据时会先到缓存中刷新数据(同步最新数据)
+         *      用同步锁机制可以避免该问题，主线程在每次读写数据时会先到主存中刷新数据(同步最新数据)
          * 带来新的问题：
          *      多个线程操作同一个数据，使用同步锁将会造成效率非常低的现象
          */

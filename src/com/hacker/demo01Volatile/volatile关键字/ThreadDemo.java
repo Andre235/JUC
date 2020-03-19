@@ -1,4 +1,4 @@
-package com.hacker.demo01Volatile;
+package com.hacker.demo01Volatile.volatile关键字;
 
 /**
  * @author : Jeffersonnn
@@ -12,7 +12,7 @@ public class ThreadDemo implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(200);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
