@@ -1,4 +1,4 @@
-package com.hacker.demo01Volatile.CountDownLatch闭锁;
+package com.hacker.demo01Volatile.demo03_CountDownLatch闭锁;
 
 import java.util.concurrent.CountDownLatch;
 

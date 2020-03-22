@@ -1,9 +1,6 @@
-package com.hacker.demo01Volatile.CopyOnWriteArrayList关键字;
+package com.hacker.demo01Volatile.demo05_CopyOnWriteArrayList关键字;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**

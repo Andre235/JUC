@@ -1,9 +1,9 @@
-package com.hacker.demo01Volatile.原子性;
+package com.hacker.demo01Volatile.demo02_原子性;
 
 /**
  * @author : Jeffersonnn
  * @date : 2020/3/19
- * @description : 原子性：计算机中最小的可执行单元，其操作不可分割
+ * @description : demo02_原子性：计算机中最小的可执行单元，其操作不可分割
  * volatile关键字没有避免原子性问题
  * i++的原子性的问题，可以拆分成读、改、写三部
  * int i = 10;

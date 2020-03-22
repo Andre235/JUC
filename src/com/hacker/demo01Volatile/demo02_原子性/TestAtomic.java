@@ -1,4 +1,4 @@
-package com.hacker.demo01Volatile.原子性;
+package com.hacker.demo01Volatile.demo02_原子性;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
